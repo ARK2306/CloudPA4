@@ -1,4 +1,4 @@
-unique_id,ground_truth,inferred_value,data,created_at
+Producer,ground_truth,inferred_value,data,created_at
 04c54740-b19a-4634-8289-417512aef465,79,barn_spider,<memory at 0x7f42be804580>,46:33.7
 1bf05637-3c56-45ef-8d93-e6c3f244672f,53,nipple,<memory at 0x7f42be804640>,46:33.8
 1bf05637-3c56-45ef-8d93-e6c3f244672f,23,wing,<memory at 0x7f42be804700>,46:33.7

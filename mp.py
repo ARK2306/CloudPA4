@@ -5,7 +5,7 @@ from pyspark.sql.functions import col, when, count
 spark = SparkSession.builder.appName("InferenceErrorCount").getOrCreate()
 
 # Read the data from a CSV file
-df = spark.read.csv("/Users/aryanreddy/Desktop/PA4/MapReduce_data.csv", header=True)
+df = spark.read.csv("MapReduce_data.csv", header=True)
 
 # Create a mapping dictionary for class names to class IDs
 class_mapping = {
